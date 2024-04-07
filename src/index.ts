@@ -1,3 +1,8 @@
+import {
+  name as packageName,
+  version as packageVersion,
+} from "../package.json";
+
 export const parseForESLint = (code: string) => ({
   ast: {
     type: "Program",
@@ -13,3 +18,8 @@ export const parseForESLint = (code: string) => ({
     Program: [],
   },
 });
+
+export const meta = {
+  name: packageName,
+  version: packageVersion,
+};
