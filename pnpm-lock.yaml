@@ -10,7 +10,7 @@ devDependencies:
     version: 0.21.12
   '@so1ve/eslint-config':
     specifier: ^0.110.0
-    version: 0.110.4(eslint@8.57.1)(prettier@2.8.8)(svelte@4.2.19)(typescript@5.7.3)(vite@4.5.8)(vitest@0.32.4)
+    version: 0.110.4(eslint@8.57.1)(prettier@2.8.8)(svelte@4.2.19)(typescript@5.7.3)(vite@4.5.9)(vitest@0.32.4)
   '@types/eslint':
     specifier: ^8.40.0
     version: 8.56.12
@@ -34,7 +34,7 @@ devDependencies:
     version: 1.2.1
   vite:
     specifier: ^4.3.4
-    version: 4.5.8(@types/node@18.19.71)
+    version: 4.5.9(@types/node@18.19.71)
   vitest:
     specifier: ^0.32.0
     version: 0.32.4
@@ -1156,7 +1156,7 @@ packages:
     resolution: {integrity: sha512-+Fj43pSMwJs4KRrH/938Uf+uAELIgVBmQzg/q1YG10djyfA3TnrU8N8XzqCh/okZdszqBQTZf96idMfE5lnwTA==}
     dev: true
 
-  /@so1ve/eslint-config-basic@0.110.4(@typescript-eslint/eslint-plugin@5.62.0)(@typescript-eslint/parser@5.62.0)(eslint-import-resolver-typescript@3.6.1)(eslint@8.57.1)(prettier@2.8.8)(svelte@4.2.19)(typescript@5.7.3)(vite@4.5.8)(vitest@0.32.4):
+  /@so1ve/eslint-config-basic@0.110.4(@typescript-eslint/eslint-plugin@5.62.0)(@typescript-eslint/parser@5.62.0)(eslint-import-resolver-typescript@3.6.1)(eslint@8.57.1)(prettier@2.8.8)(svelte@4.2.19)(typescript@5.7.3)(vite@4.5.9)(vitest@0.32.4):
     resolution: {integrity: sha512-KpnNwoDSNZFQDOXxZU4MJRo22XNxM+5c/fhdDOdUij6YTUZYI0pY4A7XY1HpRBpnSVpOSmfuzUAQH4aNTZH6og==}
     deprecated: Use @so1ve/eslint-config-js instead
     peerDependencies:
@@ -1188,7 +1188,7 @@ packages:
       eslint-plugin-toml: 0.5.0(eslint@8.57.1)
       eslint-plugin-unicorn: 47.0.0(eslint@8.57.1)
       eslint-plugin-unused-imports: 2.0.0(@typescript-eslint/eslint-plugin@5.62.0)(eslint@8.57.1)
-      eslint-plugin-vitest: 0.2.8(eslint@8.57.1)(typescript@5.7.3)(vite@4.5.8)(vitest@0.32.4)
+      eslint-plugin-vitest: 0.2.8(eslint@8.57.1)(typescript@5.7.3)(vite@4.5.9)(vitest@0.32.4)
       eslint-plugin-yml: 1.12.2(eslint@8.57.1)
       jsonc-eslint-parser: 2.4.0
       prettier: 2.8.8
@@ -1205,14 +1205,14 @@ packages:
       - vitest
     dev: true
 
-  /@so1ve/eslint-config-ts@0.110.4(eslint-plugin-i@2.27.5-4)(eslint@8.57.1)(prettier@2.8.8)(svelte@4.2.19)(typescript@5.7.3)(vite@4.5.8)(vitest@0.32.4):
+  /@so1ve/eslint-config-ts@0.110.4(eslint-plugin-i@2.27.5-4)(eslint@8.57.1)(prettier@2.8.8)(svelte@4.2.19)(typescript@5.7.3)(vite@4.5.9)(vitest@0.32.4):
     resolution: {integrity: sha512-nLaafwyGYKmFPiGIlBqh01gSi2rjY5oy7LYfU3/3yjMicsUum9Ro5FGnuq4hINCxWKMJ8+xTaf5/mezfd+RkPw==}
     peerDependencies:
       eslint: '>=8.40.0'
       prettier: '>=2.0.0'
       typescript: '>=3.9'
     dependencies:
-      '@so1ve/eslint-config-basic': 0.110.4(@typescript-eslint/eslint-plugin@5.62.0)(@typescript-eslint/parser@5.62.0)(eslint-import-resolver-typescript@3.6.1)(eslint@8.57.1)(prettier@2.8.8)(svelte@4.2.19)(typescript@5.7.3)(vite@4.5.8)(vitest@0.32.4)
+      '@so1ve/eslint-config-basic': 0.110.4(@typescript-eslint/eslint-plugin@5.62.0)(@typescript-eslint/parser@5.62.0)(eslint-import-resolver-typescript@3.6.1)(eslint@8.57.1)(prettier@2.8.8)(svelte@4.2.19)(typescript@5.7.3)(vite@4.5.9)(vitest@0.32.4)
       '@so1ve/eslint-plugin': 0.110.4(eslint@8.57.1)(typescript@5.7.3)
       '@typescript-eslint/eslint-plugin': 5.62.0(@typescript-eslint/parser@5.62.0)(eslint@8.57.1)(typescript@5.7.3)
       '@typescript-eslint/parser': 5.62.0(eslint@8.57.1)(typescript@5.7.3)
@@ -1235,13 +1235,13 @@ packages:
       - vitest
     dev: true
 
-  /@so1ve/eslint-config-vue@0.110.4(eslint-plugin-i@2.27.5-4)(eslint@8.57.1)(prettier@2.8.8)(svelte@4.2.19)(typescript@5.7.3)(vite@4.5.8)(vitest@0.32.4):
+  /@so1ve/eslint-config-vue@0.110.4(eslint-plugin-i@2.27.5-4)(eslint@8.57.1)(prettier@2.8.8)(svelte@4.2.19)(typescript@5.7.3)(vite@4.5.9)(vitest@0.32.4):
     resolution: {integrity: sha512-8GyCapaeXtfGSu7ou9orKKskfVmtK0exFqFiVGqNswXiF0osyBIuhsclBAu8HFEu5jFNpUmnULhCpd4dnJKEfg==}
     peerDependencies:
       eslint: '>=8.40.0'
       prettier: '>=2.0.0'
     dependencies:
-      '@so1ve/eslint-config-ts': 0.110.4(eslint-plugin-i@2.27.5-4)(eslint@8.57.1)(prettier@2.8.8)(svelte@4.2.19)(typescript@5.7.3)(vite@4.5.8)(vitest@0.32.4)
+      '@so1ve/eslint-config-ts': 0.110.4(eslint-plugin-i@2.27.5-4)(eslint@8.57.1)(prettier@2.8.8)(svelte@4.2.19)(typescript@5.7.3)(vite@4.5.9)(vitest@0.32.4)
       eslint: 8.57.1
       eslint-define-config: 1.24.1
       eslint-plugin-vue: 9.21.1(eslint@8.57.1)
@@ -1258,14 +1258,14 @@ packages:
       - vitest
     dev: true
 
-  /@so1ve/eslint-config@0.110.4(eslint@8.57.1)(prettier@2.8.8)(svelte@4.2.19)(typescript@5.7.3)(vite@4.5.8)(vitest@0.32.4):
+  /@so1ve/eslint-config@0.110.4(eslint@8.57.1)(prettier@2.8.8)(svelte@4.2.19)(typescript@5.7.3)(vite@4.5.9)(vitest@0.32.4):
     resolution: {integrity: sha512-Ko8tOnajxE8+yDBbOWFuWavnDi+aQkoloOhfbVYriSeJF17RcXwult/BAj3ZbZw9Qp7McFOChUgc6GKp32vHIw==}
     peerDependencies:
       eslint: '>=8.40.0'
       prettier: '>=2.0.0'
     dependencies:
       '@eslint-community/eslint-plugin-eslint-comments': 3.2.1(eslint@8.57.1)
-      '@so1ve/eslint-config-vue': 0.110.4(eslint-plugin-i@2.27.5-4)(eslint@8.57.1)(prettier@2.8.8)(svelte@4.2.19)(typescript@5.7.3)(vite@4.5.8)(vitest@0.32.4)
+      '@so1ve/eslint-config-vue': 0.110.4(eslint-plugin-i@2.27.5-4)(eslint@8.57.1)(prettier@2.8.8)(svelte@4.2.19)(typescript@5.7.3)(vite@4.5.9)(vitest@0.32.4)
       '@typescript-eslint/eslint-plugin': 5.62.0(@typescript-eslint/parser@5.62.0)(eslint@8.57.1)(typescript@5.7.3)
       '@typescript-eslint/parser': 5.62.0(eslint@8.57.1)(typescript@5.7.3)
       eslint: 8.57.1
@@ -2659,7 +2659,7 @@ packages:
       eslint-module-utils: 2.12.0(@typescript-eslint/parser@5.62.0)(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.1)(eslint@8.57.1)
       eslint-plugin-import: /eslint-plugin-i@2.27.5-4(@typescript-eslint/parser@5.62.0)(eslint-import-resolver-typescript@3.6.1)(eslint@8.57.1)
       fast-glob: 3.3.2
-      get-tsconfig: 4.9.0
+      get-tsconfig: 4.10.0
       is-core-module: 2.16.1
       is-glob: 4.0.3
     transitivePeerDependencies:
@@ -2759,7 +2759,7 @@ packages:
       eslint: 8.57.1
       eslint-import-resolver-node: 0.3.9
       eslint-module-utils: 2.12.0(@typescript-eslint/parser@5.62.0)(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.1)(eslint@8.57.1)
-      get-tsconfig: 4.9.0
+      get-tsconfig: 4.10.0
       is-glob: 4.0.3
       minimatch: 3.1.2
       resolve: 1.22.10
@@ -2995,7 +2995,7 @@ packages:
       eslint-rule-composer: 0.3.0
     dev: true
 
-  /eslint-plugin-vitest@0.2.8(eslint@8.57.1)(typescript@5.7.3)(vite@4.5.8)(vitest@0.32.4):
+  /eslint-plugin-vitest@0.2.8(eslint@8.57.1)(typescript@5.7.3)(vite@4.5.9)(vitest@0.32.4):
     resolution: {integrity: sha512-q8s4tStyKtn3gXf+8nf1ZYTHhoCXKdnozZzp6u8b4ni5v68Y4vxhNh4Z8njUfNjEY8HoPBB77MazHMR23IPb+g==}
     engines: {node: 14.x || >= 16}
     peerDependencies:
@@ -3008,7 +3008,7 @@ packages:
     dependencies:
       '@typescript-eslint/utils': 6.21.0(eslint@8.57.1)(typescript@5.7.3)
       eslint: 8.57.1
-      vite: 4.5.8(@types/node@18.19.71)
+      vite: 4.5.9(@types/node@18.19.71)
       vitest: 0.32.4
     transitivePeerDependencies:
       - supports-color
@@ -3358,14 +3358,14 @@ packages:
     engines: {node: '>=16'}
     dev: true
 
-  /get-tsconfig@4.7.2:
-    resolution: {integrity: sha512-wuMsz4leaj5hbGgg4IvDU0bqJagpftG5l5cXIAvo8uZrqn0NJqwtfupTN00VnkQJPcIRrxYrm1Ue24btpCha2A==}
+  /get-tsconfig@4.10.0:
+    resolution: {integrity: sha512-kGzZ3LWWQcGIAmg6iWvXn0ei6WDtV26wzHRMwDSzmAbcXrTEXxHy6IehI6/4eT6VRKyMP1eF1VqwrVUmE/LR7A==}
     dependencies:
       resolve-pkg-maps: 1.0.0
     dev: true
 
-  /get-tsconfig@4.9.0:
-    resolution: {integrity: sha512-52n24W52sIueosRe0XZ8Ex5Yle+WbhfCKnV/gWXpbVR8FXNTfqdKEKUSypKso66VRHTvvcQxL44UTZbJRlCTnw==}
+  /get-tsconfig@4.7.2:
+    resolution: {integrity: sha512-wuMsz4leaj5hbGgg4IvDU0bqJagpftG5l5cXIAvo8uZrqn0NJqwtfupTN00VnkQJPcIRrxYrm1Ue24btpCha2A==}
     dependencies:
       resolve-pkg-maps: 1.0.0
     dev: true
@@ -5770,7 +5770,7 @@ packages:
       mlly: 1.7.4
       pathe: 1.1.2
       picocolors: 1.0.0
-      vite: 4.5.8(@types/node@18.19.71)
+      vite: 4.5.9(@types/node@18.19.71)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -5782,8 +5782,8 @@ packages:
       - terser
     dev: true
 
-  /vite@4.5.8(@types/node@18.19.71):
-    resolution: {integrity: sha512-knwCemCOfTj1NiegPcXwlbltQdXpYrSWlh+1QSzhl7L8UTqGrSy0mOTTI3mkhK1Ud/YNMtVmaDojdUbvFl55CQ==}
+  /vite@4.5.9(@types/node@18.19.71):
+    resolution: {integrity: sha512-qK9W4xjgD3gXbC0NmdNFFnVFLMWSNiR3swj957yutwzzN16xF/E7nmtAyp1rT9hviDroQANjE4HK3H4WqWdFtw==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -5870,7 +5870,7 @@ packages:
       strip-literal: 1.3.0
       tinybench: 2.6.0
       tinypool: 0.5.0
-      vite: 4.5.8(@types/node@18.19.71)
+      vite: 4.5.9(@types/node@18.19.71)
       vite-node: 0.32.4(@types/node@18.19.71)
       why-is-node-running: 2.2.2
     transitivePeerDependencies:
